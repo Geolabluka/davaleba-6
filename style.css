@@ -1,0 +1,73 @@
+
+body {
+    background-image: url(bob-marley-goywlbd4izdin9o4.jpg)
+   ;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.ilona{
+    position: absolute;
+    animation-name: spin;
+    animation-duration: 3500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-left: 1200px;
+    margin-top: 500px;
+    display: inline-block;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.snoopdoga {
+    display: inline-block;
+    padding-left: 600px;
+    padding-top: 500px;
+    animation-name: spinner;
+    animation-duration: 3500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinner{
+     25%{transform: translateX(100px);}
+	 25%{transform: translateX(100px);}
+}
+
+
+.gandalfa{
+    display: inline-block;
+    position: absolute;
+	animation-name: move;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+    padding-top: 150px;
+    padding-left: 20px;
+}
+@keyframes move{
+    0%{transform: translateY(10px);}
+	25%{transform: translateY(100px);}
+	50%{ transform: translateY(200px); }
+}
+.marijuana{
+    padding-top: 150px;
+    padding-left: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	opacity: 0;
+	transition: all 2s;
+}	
+.marijuana:hover{
+    opacity: 1;
+}
